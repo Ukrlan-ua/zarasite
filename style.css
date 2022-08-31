@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
+@import "./reset.css";
+
+.mobile{
+    display: none;
+}
+
 body{
-font-family: 'Edu TAS Beginner', cursive;
-font-family: 'Lato', sans-serif;
-font-family: 'Nunito Sans', sans-serif;
-max-width: 1920px;
-margin: auto;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    max-width: 1920px;
+    margin: auto;
 }
 
 .header{
@@ -441,7 +447,7 @@ hr{
     text-align: left;
     margin-top: 22px;
     line-height: 18px;
-    letter-spacing: 0.15rem;
+    letter-spacing: 0.15em;
     font-size: 12px;
     font-weight: 400;
 }
